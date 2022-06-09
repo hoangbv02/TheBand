@@ -1,0 +1,57 @@
+@media (max-width:740px){
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+    }
+    .s-mt-32{
+        margin-top:16px;
+    }
+    #content .about-item-img {
+        width: 60%;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        overflow: hidden;
+    }
+    #nav .subnav{
+        position: static;
+        background-color: #000;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav li a{
+        display:block;
+    }
+    #nav>li:first-child{
+        width: 100px;
+        display:inline-block;
+    }
+    #search{
+        display: none;
+    }
+    #header .mobile-menu{
+        display: block;
+    }
+    .mb-16{
+        margin-bottom:16px;
+    }
+    .tour-list {
+        margin-top:31px;
+    }
+    .text-content{
+        display: none;
+    }
+    .content{
+        line-height: 2;
+    }
+    .form-input{
+        margin-top: 16px;
+    }
+}
